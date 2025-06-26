@@ -35,7 +35,7 @@ module.exports = class NormaliseRoleColours {
                 normaliseGradient(node);
             }
 
-            // scan its descendants
+            // normalise its descendants
             node.querySelectorAll?.(selector).forEach(normaliseGradient);
         }
 
